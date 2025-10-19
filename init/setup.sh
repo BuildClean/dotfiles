@@ -1,5 +1,5 @@
 # Installation
-sudo pacman -Syu hyprland wofi zsh neovim
+sudo pacman -Syu hyprland wofi zsh zsh-syntax-highlighting neovim fzf ripgrep
 
 # Set zsh as default Shell
 sudo chsh -s $(which zsh)
