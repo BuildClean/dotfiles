@@ -36,9 +36,6 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Auto cd
 setopt autocd
 
-# Keyboard
-setxkbmap us
-
 # Highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
