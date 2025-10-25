@@ -16,6 +16,13 @@ sudo pacman -Syu neovim
 # Utils
 sudo pacman -Syu fzf ripgrep
 
+# Night Light
+systemctl --user daemon-reload
+systemctl --user enable --now gammastep.service
+
+# Coding
+sudo pacman -S node npm
+
 # Setup zsh
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 ln -s ~/.config/zsh/.zprofile ~/.zprofile
